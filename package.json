@@ -12,8 +12,8 @@
     "code-translate",
     "code translate"
   ],
-  "version": "1.0.20",
-  "publisher": "w88975",
+  "version": "1.0.21",
+  "publisher": "ZhangQuan",
   "icon": "icon.png",
   "engines": {
     "vscode": "^1.31.1"
@@ -27,7 +27,20 @@
   "main": "./extension.js",
   "browser": "./dist/web/extension.js",
   "contributes": {
-    "commands": []
+    "commands": [
+      {
+        "command": "code-translate.translateSelection",
+        "title": "Translate"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "code-translate.translateSelection",
+          "when": "editorTextFocus"
+        }
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint .",
@@ -51,5 +64,6 @@
     "webpack": "^5.60.0",
     "webpack-cli": "^4.9.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "repository": { "type": "git", "url": "https://github.com/ZhangQuan-hub/code-translate" }
 }
