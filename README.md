@@ -1,13 +1,10 @@
 # Code Translate for VS Code
-[![Version](https://img.shields.io/visual-studio-marketplace/v/w88975.code-translate?style=flat-square&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=w88975.code-translate)
-![Installs](https://img.shields.io/visual-studio-marketplace/i/w88975.code-translate?style=flat-square)
-![Downloads](https://img.shields.io/visual-studio-marketplace/d/w88975.code-translate?style=flat-square)
-![Rating](https://img.shields.io/visual-studio-marketplace/r/w88975.code-translate?style=flat-square)
-![GitHub Repo stars](https://img.shields.io/github/stars/w88975/code-translate-vscode?style=flat-square&logo=github)
+
+
 [![The MIT License](https://img.shields.io/badge/license-MIT-orange.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 ## 简介
 
-Code Translate 是一款纯粹的滑词翻译软件
+Code Translate 是一款纯粹的滑词翻译软件, 在下面项目基础上进行修正.(感谢: https://github.com/w88975/code-translate-vscode)
 
 1. 无侵入式的显示翻译结果: 与VS Code代码分析完美结合 
 
@@ -19,17 +16,20 @@ Code Translate 是一款纯粹的滑词翻译软件
 
 5. 多端支持: VS Code 桌面版 和 VS Code Online 版本, 插件均可支持
 
+6. 将原本的鼠标悬停翻译修改为了光标所在位置右键菜单栏里翻译.
+
 ---
 
 ## 预览
 
-- 鼠标悬停翻译:
-  ![screen_01.png](https://github.com/w88975/code-translate-vscode/blob/master/assets/Snipaste_01.png?raw=true)
-- 自动拆分组合词:
+- 右键菜单翻译(新增功能):
+  ![screen_01.png](assets\image1.png)------>
+  ![screen_01.png](assets\image2.png)
+- 自动拆分组合词(原始功能):
   ![screen_01.png](https://github.com/w88975/code-translate-vscode/blob/master/assets/Snipaste_02.png?raw=true)
-- 自由框选单词:
+- 自由框选单词(原始功能):
   ![screen_01.png](https://github.com/w88975/code-translate-vscode/blob/master/assets/Snipaste_03.png?raw=true)
-- 跳转第三方查询
+- 跳转第三方查询(原始功能):
   ![screen_01.png](https://github.com/w88975/code-translate-vscode/blob/master/assets/Snipaste_04.png?raw=true)
 
 ---
@@ -37,7 +37,7 @@ Code Translate 是一款纯粹的滑词翻译软件
 
 MIT License
 
-Copyright (c) [2020] [w88975]
+Copyright (c) [2025] [zhangquan]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
