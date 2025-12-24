@@ -22,9 +22,9 @@ Code Translate 是一款纯粹的滑词翻译软件, 在下面项目基础上进
 
 ## 预览
 
-- 右键菜单翻译(新增功能):
-  ![screen_01.png](assets\image1.png)------>
-  ![screen_01.png](assets\image2.png)
+ - 右键菜单翻译(新增功能):
+   ![screen_01.png](assets/image1.png)
+   ![screen_02.png](assets/image2.png)
 - 自动拆分组合词(原始功能):
   ![screen_01.png](https://github.com/w88975/code-translate-vscode/blob/master/assets/Snipaste_02.png?raw=true)
 - 自由框选单词(原始功能):
